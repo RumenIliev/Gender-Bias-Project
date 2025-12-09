@@ -1,9 +1,6 @@
 # gender-bias-project
 
 ### Project Structure
-
-The project is organized as follows:
-
 ```text
 project/
 │
