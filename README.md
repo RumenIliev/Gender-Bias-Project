@@ -1,8 +1,8 @@
-# gender-bias-project
+# Gender-Bias-Project
 
 ### Project Structure
 ```text
-project/
+.
 │
 ├── main.ipynb
 │
