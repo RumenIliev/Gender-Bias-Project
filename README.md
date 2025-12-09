@@ -2,7 +2,7 @@
 
 ### Project Structure
 ```text
-project/
+.
 │
 ├── main.ipynb
 │
