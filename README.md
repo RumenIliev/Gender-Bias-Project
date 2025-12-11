@@ -1,19 +1,20 @@
 # Gender-Bias-Project
+> Rumen Iliev, Bill Chaves
 
 ### Project Structure
 ```text
 .
 │
-├── main.ipynb
+├── main.ipynb             # Complete analysis workflow
 │
 ├── data/
-│   └── adult.csv
+│   └── adult.csv          # Adult Income Dataset
 │
 ├── src/
-│   ├── simulation.py
-│   ├── preprocessing.py
-│   └── models.py
+│   ├── simulation.py      # Containing two simulators
+│   ├── preprocessing.py   # Data cleaning
+│   └── models.py          # Logistic Regression and Decision Tree
 │
-├── figures/
+├── figures/               # Containing figures
 │
-└── README.md
+└── README.md              # Project info
