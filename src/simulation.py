@@ -6,7 +6,7 @@ def sigmoid(x):
     return 1 / (1 + np.exp(-x)) # Logistic function
 
 
-def simulate_data(n_samples, bias=False, seed=0):
+def simulate_data(n_samples, bias=False, seed=0, bias_strength=0.7):
     np.random.seed(seed)
 
     genders = []
@@ -61,9 +61,7 @@ def simulate_data(n_samples, bias=False, seed=0):
         edu_effects = [0.0, 0.8, 1.6]
         occ_effects = [0.0, 0.6, 1.2]
 
-        gender_effect = 0.0
-        if bias:
-            gender_effect = -0.7  # disadvantage for women
+        gender_effect = -bias_strength if bias else 0 # disadvantage for women
 
         linear_score = (
             intercept
