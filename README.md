@@ -8,7 +8,7 @@
 ├── main.ipynb             # Complete analysis workflow
 │
 ├── data/
-│   └── adult.csv          # Adult Income Dataset
+│   └── adult.csv          # Adult Income Dataset (UCI)
 │
 ├── src/
 │   ├── simulation.py      # Containing two simulators for H0/H1
