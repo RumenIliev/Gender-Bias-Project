@@ -11,7 +11,7 @@
 │   └── adult.csv          # Adult Income Dataset
 │
 ├── src/
-│   ├── simulation.py      # Containing two simulators
+│   ├── simulation.py      # Containing two simulators for H0/H1
 │   ├── preprocessing.py   # Data cleaning
 │   └── models.py          # Logistic Regression and Decision Tree
 │
